@@ -913,7 +913,7 @@
 @ stub _o_atanhf
 @ stub _o_atanhl
 @ cdecl _o_atof(str) ucrtbase._o_atof
-@ stub _o_atoi
+@ cdecl _o_atoi(str) ucrtbase._o_atoi
 @ stub _o_atol
 @ stub _o_atoll
 @ stub _o_bsearch
@@ -952,7 +952,7 @@
 @ stub _o_fgets
 @ stub _o_fgetwc
 @ stub _o_fgetws
-@ stub _o_floor
+@ cdecl _o_floor(double) ucrtbase._o_floor
 @ stub _o_floorf
 @ stub _o_fma
 @ stub _o_fmaf
